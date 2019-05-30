@@ -145,7 +145,6 @@ def team_colors(name_of_team)
       return team_data[:colors]
     end
   end
-  
 end
 
 
