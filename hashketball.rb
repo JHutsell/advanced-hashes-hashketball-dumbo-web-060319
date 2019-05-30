@@ -133,7 +133,7 @@ def shoe_size(name)
   game_hash.each do |locations, team_data|
     team_data[:players].each do |player, stats|
       if player == name
-        return stats[:shoe_size]
+        return stats[:shoe]
       end
     end
   end
