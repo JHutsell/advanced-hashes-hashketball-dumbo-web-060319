@@ -174,23 +174,23 @@ def player_stats(player_name)
 end
 
 def biggest_shoe_man
-  big_shoe_guy = nil
+  big_shoe_man = nil
   shoe_size = nil
   game_hash.each do |locations, team_data|
     team_data[:players].each do |player, stats|
-      if shoe_size == nil && big_shoe_guy == nil
-        big_shoe_guy = player
+      if shoe_size == nil && big_shoe_man == nil
+        big_shoe_man = player
         shoe_size = stats[:shoe]
       elsif stats[:shoe] > shoe_size
-        big_shoe_guy = player
+        big_shoe_man = player
         shoe_size = stats[:shoe]
       end 
     end 
   end
-
-  return big_shoe_guy
-  
+  big_shoe_man
 end
+
+def big_shoe_rebounds
 
 
 
