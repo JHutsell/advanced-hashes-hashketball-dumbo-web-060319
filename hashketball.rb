@@ -191,6 +191,12 @@ def biggest_shoe_man
 end
 
 def big_shoe_rebounds
+  game_hash.each do |locations, team_data|
+    
+    
+  end
+  
+end
 
 
 
