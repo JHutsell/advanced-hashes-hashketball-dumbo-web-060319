@@ -149,6 +149,8 @@ end
 
 def team_names
   game_hash.each do |locations, team_data|
+    
+  end
   
 end
 
