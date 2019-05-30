@@ -151,6 +151,10 @@ def team_names
   game_hash.map do |locations, team_data|
     team_data[:team_name]
   end
+end
+
+def player_numbers(player_name)
+  
   
 end
 
